@@ -13,10 +13,14 @@
 }
 
 .nav-item {
-    border-right: 1px solid #cccccc;
+    /* border-right: 1px solid #cccccc; */
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 0 0;
 }
 
+.nav-link {
+    padding-right: 30px;
+}
 
 /*logo*/
 a.navbar-brand {
