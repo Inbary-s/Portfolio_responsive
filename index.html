@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>About Me</title>
 </head>
 
 <body>
     <!--nav bar here-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Inbar Shucker</a>
+    <nav class="nav navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-white" href="index.html">Inbar Shucker</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
           </div>
         </div>
       </nav>
@@ -33,11 +39,13 @@
                 <h2>About Me</h2>
             </div>
         </div>
-        
-        <div class="row">
-            <div class="col-md-3">
+
+        <div class="row-flex-wrap">
+            <div class="col-md-4">
                 <!--image-->
-                <img src="assets/images/0.jpg" width="200" height="200" class="img-fluid float-left" alt="Inbar's Profile photo">
+                <div class="profile-pic-flex-wrap">
+                    <img src="assets/images/0.jpg" width="230" height="230" class="img-fluid float-left" alt="Inbar's Profile photo" style="padding-right: 30px">
+                </div>
             </div>
             <div class="col-md">
                 <!--text-->
@@ -51,7 +59,7 @@
 
     </div>
     
-    <nav class="navbar fixed-bottom navbar-light bg-light">
+    <nav class="nav fixed-bottom footer justify-content-center"> 
         <!--footer here-->
         <p>Copyright © Inbar Shucker</p>
     </nav>
