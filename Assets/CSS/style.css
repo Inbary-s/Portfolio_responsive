@@ -13,7 +13,6 @@
 }
 
 .nav-item {
-    /* border-right: 1px solid #cccccc; */
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 0 0 0;
 }
@@ -173,22 +172,3 @@ button:hover {
     font-size: 80%;
     }
 }
-
-
-/*not working
-.navbar-toggler {
-    float: right;
-}
-*/
-/*3 links collapse*/
-/*
-.navbar-collapse {
-    float: right;
-    
-}
-
-#navbarNavAltMarkup {
-    float: right;
-    text-align: right;
-}
-*/
