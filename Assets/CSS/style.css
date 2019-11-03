@@ -24,7 +24,6 @@ a.navbar-brand {
     width: 30%;
     color: white;
     text-align: center;
-    font-size: 34px;
     font-weight: bold;
     padding: 15px 5px 15px 5px;
 }
@@ -39,7 +38,7 @@ body {
 
 .container {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 150px;
     padding: 10px 40px 40px 40px;
     border: 2px solid #dddddd;
@@ -134,17 +133,43 @@ button:hover {
     .nav-item {
         border: none;
     }
+    
     a.navbar-brand {
         width: 20%;
         display: block;
         white-space:normal;
-        font-size-adjust: initial;
+        padding: 25px 5px 25px 5px;
     }
+    
     .navbar {
-        padding: 0 5% 0 5%;
+        padding: 0 2% 0 2%;
+    }
+    
+    .navbar-toggler {
+        margin-bottom: 2%;
+        background-color: #ffffff;
+    }
+    
+    .navbar-toggler:active {
+        background-color: #39fdf3;
+    }
+    
+    .navbar-toggler:focus {
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width: 576px) {
+    #about {
+        contain: layout;
     }
 
+    a.navbar-brand {
+    white-space: normal;
+    font-size: 80%;
+    }
 }
+
 
 /*not working
 .navbar-toggler {
