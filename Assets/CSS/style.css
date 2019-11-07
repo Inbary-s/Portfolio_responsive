@@ -1,5 +1,5 @@
 .navbar {
-    padding: 0 195px 0 195px;
+    padding: 0 15% 0 15%;
     border-bottom: 3px solid #cccccc;
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,10 +15,6 @@
 .nav-item {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 0 0 0;
-}
-
-.nav-link {
-    padding-right: 30px;
 }
 
 /*logo*/
@@ -112,6 +108,10 @@ h2 {
     bottom: 20px;
 }
 
+.project_text:hover {
+    background-color: #39fdf3;
+}
+
 a {
     color: #777777;
     font-weight: 10;
@@ -135,10 +135,11 @@ button:hover {
 @media (max-width: 991.98px) {
     .nav-item {
         border: none;
+        padding-top: 20px;
     }
     
     a.navbar-brand {
-        width: 20%;
+        width: 30%;
         display: block;
         white-space:normal;
         padding: 25px 5px 25px 5px;
