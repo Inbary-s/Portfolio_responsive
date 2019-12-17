@@ -118,6 +118,9 @@ h3{
 p{
     font-size: 18px;
 }
+.table-of-contents a.active {
+    border-left: 2px solid #b291ff4b;
+}
 .btn {
     color: #270772;
     font-family: 'Quicksand', sans-serif;
@@ -144,30 +147,37 @@ textarea{
 @media (max-width: 991.98px) {
     .nav-item {
         border: none;
-        padding-top: 20px;
+        padding-top: 10px;
     }  
     a.navbar-brand {
         width: 30%;
         display: block;
         white-space:normal;
-        padding: 25px 5px 25px 5px;
+        padding: 5px 5px 25px 5px;
     } 
     .navbar {
         padding: 0 2% 0 2%;       
     } 
     .navbar-toggler {
-        margin-bottom: 2%;
-        background-color: #0f0122;
+        margin-bottom: 6%;
+        background-color: #b291ff4b;
+        border: none;
         color: white;
     }  
     .navbar-toggler:focus {
-        background-color: #0f0122;
+        /* background-color: #0f0122; */
+    }
+    #about{
+        contain: layout;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 596px) {
     #about {
         contain: layout;
     }
+    .navbar {
+        padding: 0 2% 120px 2%;       
+    } 
     a.navbar-brand {
         white-space: normal;
         font-size: 80%;

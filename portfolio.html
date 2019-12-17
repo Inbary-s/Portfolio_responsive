@@ -17,14 +17,14 @@
 <body>
     <!--nav bar here-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Inbar Shucker</a>
+        <a class="navbar-brand" href="#">Inbar Shucker</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html" style="padding-right: 30px; padding-left: 30px;">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="contact.html" style="padding-left: 30px;" >Contact</a>
+          <div class="navbar-nav section table-of-contents">
+            <a class="nav-item nav-link" href="#about" style="padding-right: 30px; padding-left: 30px;">About <span class="sr-only"></span></a>
+            <a class="nav-item nav-link" href="#contact" style="padding-left: 30px;" >Contact</a><span class="sr-only"></span></a>
           </div>
         </div>
     </nav>
@@ -54,34 +54,35 @@
     </div>
 
 <div class="row-flex-wrap">
-        <div class="col-md-4 images">
+        <div class="col-md-6 images profile-pic-flex-wrap">
             <!--image-->
-            <div class="profile-pic-flex-wrap">
                 <img src="assets/images/profile_sketch.png" data-src="assets/images/profile_sketch.png" data-hover="assets/images/profile.png" width="400" height="400" class="img-fluid float-left images" alt="Inbar's Profile photo" style="padding-right: 30px">
-            </div>
         </div>
-        <div class="col-md" id="about">
+        <div class="col-md section scrollspy" id="about">
             <!--text-->
-            <h2 id="about"> A little bit about me...</h2>
+            <h2> A little bit about me...</h2>
             <p>I enjoy creating! Weather it is graphics, training videos, or working on complex solutions for businesses.</p> 
-            <p>I am a seasoned e-commerce specialist, PM Director, graphic designer and web-developer.</p>
-            <h3>Check Me Out</h3>  
+            <p>I am a seasoned e-commerce specialist, PM Director, graphic designer and web-developer.</p><br>
+            <h3>Check Me Out!</h3>  
             <h4><a href="https://www.linkedin.com/in/inbar-amber-shucker/"><i class="fab fa-linkedin-in fa-2x"></i></a>      
             <a href="https://github.com/inbary-s"> <i class="fab fa-github fa-2x"></i></a>  
             <a href="assets/inbar2020.pdf" target="blank" alt="Resume"><i class="fas fa-file fa-2x"></i></a></h4>
             <p>Don’t hesitate to contact me! Together we can make anything happen!</p>
-            <br>
+
         </div>
     </div>
 
-<div class="row">
-    <div class="col-md-9">
-        <h3> Get in Touch!</h3>
+<div class="row-flex-wrap section scrollspy container" id="contact" >
+    <div class="row-fluid float-left">
+        <div class="col-md">
+            <h3> Get in Touch!</h3><br>
+        </div>
+        <div class="col-md">
+            <a href="tel:720-933-0410"><i class="fas fa-phone fa-2x"></i></a>
+            <a href="inbarsim6@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
     </div>
-    <div class="col-md-3">
-        <a href="tel:720-933-0410"><i class="fas fa-phone fa-2x"></i></a>
-        <a href="inbarsim6@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
-    </div>
+    <div class="row">
         <form>
             <div class="form-group">
                 <label for="formGroupExampleInput">Name</label>
@@ -98,6 +99,8 @@
             <button class="btn">Submit</button>
         </form>
     </div>
+</div>
+
     <ul class="bubbles">
             <li></li>
             <li></li>
