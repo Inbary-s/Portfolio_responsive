@@ -140,6 +140,12 @@ textarea{
     height:200px;
     border: #27077271 solid 0.5px;
 }
+.material-tooltip{
+    background-color: #270772c4;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
 @media (max-width: 991.98px) {
     .nav-item {
         border: none;
