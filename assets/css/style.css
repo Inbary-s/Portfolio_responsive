@@ -1,17 +1,15 @@
 body html{
-    background-color: #0f0122;
     font-family: 'Quicksand', sans-serif;
 }
 .navbar {
     padding: 0 15% 0 15%;
-    /* border-bottom: 3px solid #ffffffa2; */
     font-family: 'Quicksand', sans-serif;
     position: fixed;
     top: 0;
     z-index: 2;
 }
 .navbar-light .navbar-brand {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif !important;
     color: #270772;
     text-shadow: 2px 2px #804aff3b;
     font-weight: 100;
@@ -24,7 +22,6 @@ body html{
     width: 100%;
 }
 .nav-item {
-    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
 }
 /*logo*/
@@ -68,11 +65,12 @@ form {
 }
 h1 {
     color: #270772;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 600;
 }
 /*page title*/
 h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
     color: #270772;
     padding-bottom: 25px;
     font-size: 30px;
@@ -89,9 +87,8 @@ h2 {
 .project{
     position: relative;
 }
-
 .project_text{
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #270772;
     background-color: white;
     position: absolute;
@@ -100,7 +97,6 @@ h2 {
     font-size: 26px;
     text-align: center;
     bottom: 190px;
-
 }
 img {
     border-radius: 10px;
@@ -164,9 +160,6 @@ textarea{
         border: none;
         color: white;
     }  
-    .navbar-toggler:focus {
-        /* background-color: #0f0122; */
-    }
     #about{
         contain: layout;
     }
