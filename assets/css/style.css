@@ -213,5 +213,11 @@ textarea{
         white-space: normal;
         font-size: 80%;
     }
+    .letters {
+        font-size: 80%;
+    }
+    form {
+        width: 100%;
+    }
 }
 
